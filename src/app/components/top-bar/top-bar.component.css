@@ -1,14 +1,13 @@
 header {
-  background: linear-gradient(to bottom, #221F2E, #0B0911);
-  border: 1px solid #e4e2ee;
-  height: 70px;
+  background: rgba(255, 255, 255, 0.288);
+  height: 50px;
   width: 98%;
+  box-shadow: 0 6px 0 white;
   position: fixed;
-  top: 2%;
+  top: 1%;
   margin-left: 1%;
   margin-right: 1%;
-  border-radius: 2px 20px;
-  box-shadow: 4px 4px 0 #e4e2ee;
+  border-radius: 5px;
 }
 
 a {
@@ -26,43 +25,25 @@ a {
 }
 
 .logo {
-  font-size: 42px;
-  color: #FB5646;
-  transition: all 0.5s ease;
+  font-size: 35px;
+  color: #771E2B;
+  transition: all 0.3s ease;
 }
 .logo:hover {
-  color: #FB5646;
-  text-shadow: -3px -3px 0 #FEA02F,
-               -6px -6px 0 #B0BD6F,
-               -9px -9px 0 #32718C;
-
-}
-.logo:active {
-  color: #ffaaa2;
-  text-shadow: -3px -3px 0 #ffd7a5,
-               -6px -6px 0 #f4ffbb,
-               -9px -9px 0 #ade7ff;
+  color: #bd5d6b;
 }
 
 nav {
   float: right;
-  padding: 2% 0;
+  padding: 14px 0;
 }
 
 .link {
   font-size: 16px;
   margin: 3px;
-  padding: 5px 10px;
-  border-radius: 8px;
-  transition: all 0.1s ease;
-  text-shadow: 0.8px 0.8px 0 #9a99a0;
+  padding: 3px 7px;
+  transition: all 0.3s ease;
 }
 .link:hover {
-  color: #0B0911;
-  background: #FB5646;
-  box-shadow: 2px 2px 0 #e4e2ee;
-  text-shadow: -1px -1px 0 #b33125
-}
-.link:active {
-  color: #e4e2ee;
+  color: rgb(139, 139, 139);
 }
