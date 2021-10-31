@@ -6,6 +6,7 @@ a {
 
 #logo {
   float: left;
+  padding: 0 0 0 5%;
 }
 
 .logo {
@@ -19,6 +20,7 @@ a {
 
 nav {
   float: right;
+  padding: 0 5% 0 0;
 }
 
 .link {
@@ -44,9 +46,3 @@ table {
   background: rgba(255, 255, 255, 0.603);
   box-shadow: 0 3px 0 #771E2B;
 }
-
-td {
-  padding: 0 5%;
-}
-
-
