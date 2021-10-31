@@ -25,7 +25,7 @@ a {
 }
 
 .logo {
-  font-size: 35px;
+  font-size: 200%;
   color: #771E2B;
   transition: all 0.3s ease;
 }
@@ -35,13 +35,12 @@ a {
 
 nav {
   float: right;
-  padding: 14px 0;
+  padding: 1.2% 10%;
 }
 
 .link {
-  font-size: 16px;
-  margin: 3px;
-  padding: 3px 7px;
+  font-size: 100%;
+  margin: 3%;
   transition: all 0.3s ease;
 }
 .link:hover {
