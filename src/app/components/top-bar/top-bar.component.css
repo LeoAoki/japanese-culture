@@ -1,27 +1,11 @@
-header {
-  background: rgba(255, 255, 255, 0.288);
-  height: 7%;
-  width: 98%;
-  box-shadow: 0 6px 0 white;
-  position: fixed;
-  top: 1%;
-  margin-left: 1%;
-  margin-right: 1%;
-  border-radius: 5px;
-}
+/* Fontes: */
 
 a {
   text-decoration: none;
 }
 
-#centro-header {
-  width: 70%;
-  margin: 0 auto;
-}
-
 #logo {
   float: left;
-  padding: 0 0;
 }
 
 .logo {
@@ -35,14 +19,34 @@ a {
 
 nav {
   float: right;
-  padding: 1.2% 10%;
 }
 
 .link {
   font-size: 100%;
-  margin: 3%;
   transition: all 0.3s ease;
 }
 .link:hover {
   color: rgb(139, 139, 139);
 }
+
+
+
+/* Formato do cabeçalho: */
+
+table {
+  text-align: center;
+  vertical-align: middle;
+
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+
+  background: rgba(255, 255, 255, 0.603);
+  box-shadow: 0 3px 0 #771E2B;
+}
+
+td {
+  padding: 0 5%;
+}
+
+
