@@ -3,18 +3,11 @@
 }
 
 footer {
-  /* position: relative; */
-}
-
-.bottom {
   text-align: center;
   vertical-align: middle;
 
   width: 100%;
   margin: 0 auto;
-
-  position: absolute;
-  bottom: 0;
 
   background: #771E2B;
 }
