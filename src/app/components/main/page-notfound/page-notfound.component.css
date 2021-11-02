@@ -1,0 +1,38 @@
+#centro {
+  text-align: center;
+  margin: 150px auto;
+}
+
+h1 {
+  font-size: 400%;
+  margin: 2%;
+}
+
+.cor {
+  animation-duration: 1.2s;
+  animation-name: mudar-cor;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-direction: alternate;
+}
+
+@keyframes mudar-cor {
+  from {
+    color: #771E2B;
+  }
+  to {
+    color: #cc344b;
+  }
+}
+
+a {
+  padding: 5px 10px;
+  border-radius: 15px;
+  text-decoration: underline;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  background-color: #771E2B;
+  color: white;
+}

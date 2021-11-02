@@ -41,6 +41,7 @@ table {
   width: 100%;
   margin: 0 auto;
   position: fixed;
+  top: 0;
 
   background: rgba(255, 255, 255, 0.603);
   box-shadow: 0 3px 0 #771E2B;
