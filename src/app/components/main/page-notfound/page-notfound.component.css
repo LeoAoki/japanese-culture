@@ -1,11 +1,15 @@
 #centro {
   text-align: center;
-  margin: 150px auto;
+  margin-top: 150px;
 }
 
-h1 {
-  font-size: 400%;
-  margin: 2%;
+.numero-404 {
+  font-size: 500%;
+}
+
+.titulo-404 {
+  font-size: 350%;
+  margin-bottom: 2%;
 }
 
 .cor {
@@ -26,6 +30,7 @@ h1 {
 }
 
 a {
+  color: #771E2B;
   padding: 5px 10px;
   border-radius: 15px;
   text-decoration: underline;
