@@ -6,7 +6,7 @@
 }
 
 .logo {
-  font-size: 200%;
+  font-size: clamp(1.2rem, 2vw, 2rem);
   color: #771E2B;
   transition: all 0.3s ease;
 }
@@ -20,7 +20,7 @@ nav {
 }
 
 .link {
-  font-size: 100%;
+  font-size: clamp(0.8rem, 1vw, 1rem);
   transition: all 0.3s ease;
 }
 .link:hover {
