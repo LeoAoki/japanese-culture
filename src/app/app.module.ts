@@ -7,6 +7,7 @@ import { TopBarComponent } from './components/top-bar/top-bar.component';
 import { HomeComponent } from './components/main/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PageNotfoundComponent } from './components/main/page-notfound/page-notfound.component';
+import { LocalizationComponent } from './components/main/localization/localization.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PageNotfoundComponent } from './components/main/page-notfound/page-notf
     TopBarComponent,
     HomeComponent,
     FooterComponent,
-    PageNotfoundComponent
+    PageNotfoundComponent,
+    LocalizationComponent
   ],
   imports: [
     BrowserModule,
