@@ -8,6 +8,7 @@ import { HomeComponent } from './components/main/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PageNotfoundComponent } from './components/main/page-notfound/page-notfound.component';
 import { LocalizationComponent } from './components/main/localization/localization.component';
+import { HistoryComponent } from './components/main/history/history.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LocalizationComponent } from './components/main/localization/localizati
     HomeComponent,
     FooterComponent,
     PageNotfoundComponent,
-    LocalizationComponent
+    LocalizationComponent,
+    HistoryComponent
   ],
   imports: [
     BrowserModule,
