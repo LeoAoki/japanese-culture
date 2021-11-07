@@ -9,6 +9,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { PageNotfoundComponent } from './components/main/page-notfound/page-notfound.component';
 import { LocalizationComponent } from './components/main/localization/localization.component';
 import { HistoryComponent } from './components/main/history/history.component';
+import { PeopleComponent } from './components/main/people/people.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HistoryComponent } from './components/main/history/history.component';
     FooterComponent,
     PageNotfoundComponent,
     LocalizationComponent,
-    HistoryComponent
+    HistoryComponent,
+    PeopleComponent
   ],
   imports: [
     BrowserModule,
