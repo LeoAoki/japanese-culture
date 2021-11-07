@@ -43,12 +43,13 @@ a {
 }
 
 hr {
-  border-color: #ddcbce;
+  border-color: #daa9b0;
   margin-top: 1%;
   margin-bottom: 1%;
+  height: 0.5px;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, img {
   margin-top: 20px;
   margin-bottom: 20px;
 }
