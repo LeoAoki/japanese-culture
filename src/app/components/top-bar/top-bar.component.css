@@ -44,6 +44,8 @@ table {
   position: fixed;
   top: 0;
 
-  background: rgba(255, 255, 255, 0.603);
+  background: rgba(255, 255, 255, 0.397);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 3px 0 #771E2B;
 }
