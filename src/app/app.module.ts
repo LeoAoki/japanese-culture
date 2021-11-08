@@ -12,6 +12,7 @@ import { HistoryComponent } from './components/main/history/history.component';
 import { PeopleComponent } from './components/main/people/people.component';
 import { WhatIsComponent } from './components/main/what-is/what-is.component';
 import { VideosComponent } from './components/main/videos/videos.component';
+import { FoodComponent } from './components/main/food/food.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { VideosComponent } from './components/main/videos/videos.component';
     HistoryComponent,
     PeopleComponent,
     WhatIsComponent,
-    VideosComponent
+    VideosComponent,
+    FoodComponent
   ],
   imports: [
     BrowserModule,

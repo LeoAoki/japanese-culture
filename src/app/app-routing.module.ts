@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { FoodComponent } from './components/main/food/food.component';
 import { HistoryComponent } from './components/main/history/history.component';
 import { HomeComponent } from './components/main/home/home.component';
 import { LocalizationComponent } from './components/main/localization/localization.component';
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'history', component: HistoryComponent },
   { path: 'localization', component: LocalizationComponent },
   { path: 'people', component: PeopleComponent },
+  { path: 'food', component: FoodComponent },
   { path: 'what-is', component: WhatIsComponent },
   { path: 'videos', component: VideosComponent },
 
