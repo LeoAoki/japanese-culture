@@ -10,6 +10,7 @@ import { PageNotfoundComponent } from './components/main/page-notfound/page-notf
 import { LocalizationComponent } from './components/main/localization/localization.component';
 import { HistoryComponent } from './components/main/history/history.component';
 import { PeopleComponent } from './components/main/people/people.component';
+import { WhatIsComponent } from './components/main/what-is/what-is.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PeopleComponent } from './components/main/people/people.component';
     PageNotfoundComponent,
     LocalizationComponent,
     HistoryComponent,
-    PeopleComponent
+    PeopleComponent,
+    WhatIsComponent
   ],
   imports: [
     BrowserModule,
