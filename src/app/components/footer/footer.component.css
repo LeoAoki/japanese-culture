@@ -4,7 +4,6 @@
 
 footer {
   text-align: center;
-  vertical-align: middle;
 
   width: 100%;
   margin: 50px auto 0;
@@ -13,12 +12,12 @@ footer {
 
   background: #771E2B;
 
-  transition: all 0.5s ease;
+  /* transition: all 0.5s ease; */
 }
 
-footer:hover {
+/* footer:hover {
   background: rgb(10, 7, 15);
-}
+} */
 
 p {
   margin: 0 0 10px 0;
