@@ -11,6 +11,7 @@ import { LocalizationComponent } from './components/main/localization/localizati
 import { HistoryComponent } from './components/main/history/history.component';
 import { PeopleComponent } from './components/main/people/people.component';
 import { WhatIsComponent } from './components/main/what-is/what-is.component';
+import { VideosComponent } from './components/main/videos/videos.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { WhatIsComponent } from './components/main/what-is/what-is.component';
     LocalizationComponent,
     HistoryComponent,
     PeopleComponent,
-    WhatIsComponent
+    WhatIsComponent,
+    VideosComponent
   ],
   imports: [
     BrowserModule,

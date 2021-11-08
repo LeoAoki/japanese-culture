@@ -5,6 +5,7 @@ import { HomeComponent } from './components/main/home/home.component';
 import { LocalizationComponent } from './components/main/localization/localization.component';
 import { PageNotfoundComponent } from './components/main/page-notfound/page-notfound.component';
 import { PeopleComponent } from './components/main/people/people.component';
+import { VideosComponent } from './components/main/videos/videos.component';
 import { WhatIsComponent } from './components/main/what-is/what-is.component';
 
 const routes: Routes = [
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'localization', component: LocalizationComponent },
   { path: 'people', component: PeopleComponent },
   { path: 'what-is', component: WhatIsComponent },
+  { path: 'videos', component: VideosComponent },
 
   { path: '**', component: PageNotfoundComponent }
 ];
