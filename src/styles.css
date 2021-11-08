@@ -84,3 +84,22 @@ h1, h2, h3, h4, h5, h6, p, img {
 .texto-direita {
   text-align: right;
 }
+
+.legenda-img {
+  margin-bottom: 0;
+}
+
+.legenda-texto {
+  margin-top: 0;
+  text-align: center;
+  color: #bd5d6b;
+}
+
+.titulo-img {
+  margin-top: 0;
+}
+
+.titulo-texto {
+  text-align: center;
+  color: #bd5d6b;
+}
